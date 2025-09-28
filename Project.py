@@ -41,4 +41,3 @@ match UV:
          print("you loses")
 
 
-print("yuvraj khangar")
