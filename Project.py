@@ -41,4 +41,35 @@ match UV:
          print("you loses")
 
 
-print("mera name yuvraj hai")
+#KAUN BANEGA COREREPATI 2.0
+
+questions =["yuvraj khangar real name", "uv","jitu","kokushibo","none",4]
+questions =["yuvraj khangar real name", "uv","jitu","kokushibo","none",4]
+questions =["yuvraj khangar real name", "uv","jitu","kokushibo","none",4]
+questions =["yuvraj khangar real name", "uv","jitu","kokushibo","none",4]
+level = [10,100,1000,10000]
+for i in range(0, len(questions)):
+    question = questions[i]
+
+    print(f"\n\nquestions is for {level[i]}")
+
+    print(questions[0])
+    print(f"1.{questions[1]}             2.{questions[2]}")
+    print(f"4.{questions[3]}      3.{questions[4]}")
+    reply = int(input("enter your answer: "))
+    if (reply == 0):
+        break
+    if (reply == 2):
+       print(f"u won {level[i]}")
+       if (i ==0):
+           prize = ("airplane")
+           if i == 0:
+               print("quit 0")
+       elif(i == 1):
+           prize = ("privat yart")
+
+
+    else:
+        print("u lost game")
+        break
+print(f"your prize is {prize}")
